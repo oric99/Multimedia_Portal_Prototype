@@ -100,8 +100,9 @@
   height: 100%;
   position: flex;
   display: flex;
-  margin-top: 15px;
-  justify-content: space-between;
+  padding: 15px;
+  margin: 15px;
+  justify-content: center;
   align-items: flex-start;
   flex-flow: column;
 }
