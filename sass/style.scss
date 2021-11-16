@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic medium';
+}
+#container{
+    height: 100vh;
+    width: 100wv;
+    position: relative;
+    background-color: rgb(233, 101, 53);
+        #header{
+        background-color: rgb(59, 59, 59);
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        color: white;
+        display: flex;
+        align-items: center;
+        img{
+            height: 60px;
+            cursor: pointer;
+        }
+    }
+    #navegacionPrincipal{
+        background-color: rgb(255, 255, 255);
+        top: 60px;
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        .btn{
+            width: 15%;
+            height: 100%;
+            margin: 8px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border-radius: 8px;
+            font-size: 20px;
+            padding: 10px;
+            border: none;
+            background-color: rgb(59, 59, 59);
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(15, 15, 15);
+        }
+    }
+    #content{
+        
+        #menuVertical{
+            margin-top: 140px;
+            width: 28%;
+            height: 100vh;
+            position: fixed;
+            background-color: rgb(59, 59, 59);
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-bottom: 16px;
+            #noticias{
+                background-color: white;
+                border-radius: 8px;
+                height: 10%;
+                margin: 15px;
+                font-size: 30px;
+                justify-content: center;
+                align-items: center;
+                width: 60%;
+                display: flex;
+            }
+            #espacioNoticias{
+                width: 98%;
+                height: 98%;
+                background-color: white;
+                border-radius: 8px;
+                display: flex;
+                padding: 10px;
+                font-size: 20px;
+            }
+        }
+        #subcontent{
+            position:fixed;
+            
+        }
+    }
+    
+}
